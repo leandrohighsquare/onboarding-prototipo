@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Poppins';
+}
+
+.navegacaoSuperior{
+    width: 100vw;
+    min-height: 30px;
+    max-height: 50px;
+    background-color: whitesmoke;
+}
+
+.navegacaoSuperior, ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 100px;
+
+}
+
+.navegacaoSuperior,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+}
+
+.navegacaoSuperior,a:hover{
+    color: black;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+    .content-infos {
+        /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgb(172, 172, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%;
+    height: 80%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    font-size: 12px;
+    border-radius: 15px;
+  }
+
+  .content-infos, h1{
+    margin: 25px auto;
+  }
+
+  .campo{
+    margin: 10px;
+    width: 25vw;
+    height: 5vh;
+    padding: 5px;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: transparent;
+  }
+
+  .botaoConcluido{
+    margin: 15px;
+    min-width: 150px;
+    max-width: 300px;
+    min-height: 35px;
+    max-height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: rgb(215, 215, 215);
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+  }
+
+  .botaoConcluido:hover{
+    color: white;
+  }
+  
+  .content-fotos {
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgb(172, 172, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%;
+    height: 80%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    font-size: 12px;
+    border-radius: 15px;
+  } 
+
+#fotoPerfil{
+    max-width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  #qrcode{
+    width: 250px;
+  }
+
+  #fallout{
+    width: 160px;
+    padding: 10px;
+  }
+
+  #botaoFoto{
+    margin: 25px;
+    min-width: 150px;
+    max-width: 300px;
+    min-height: 35px;
+    max-height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: rgb(215, 215, 215);
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+  }
